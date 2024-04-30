@@ -9,6 +9,7 @@ function Navbar() {
         <img src={logo} alt="" className='logo'/>
         <ul>
           <li>Bosh sahifa</li>
+          <li>Biz haqimizda</li>
           <li>Hizmatlar</li>
           <li>Gallireya</li>
           <li><button className='btn'>Aloqa</button></li>
