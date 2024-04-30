@@ -1,0 +1,19 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(70, 51, 32, 0.5), rgba(70, 51, 32, 0.5)),
+    url("../../assets/GoldHero.png");
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+.hero-text p {
+  margin: 1rem 0 2rem;
+}
