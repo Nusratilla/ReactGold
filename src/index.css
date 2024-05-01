@@ -6,6 +6,22 @@
   box-sizing: border-box;
   font-family: "Lora", serif;
 }
+::-webkit-scrollbar {
+  background-color: var(--primary-color);
+  width: 0.7rem;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    65deg,
+    var(--secondary-color) 33%,
+    var(--accent-color) 34%,
+    var(--accent-color) 36%,
+    var(--secondary-color) 39%,
+    var(--primary-color) 90%
+  );
+  border-radius: 12rem;
+  border-bottom: 3px solid var(--accent-color);
+}
 body {
   background: #fcf1d8;
 }
